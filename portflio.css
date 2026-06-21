@@ -341,3 +341,92 @@ footer{
   .scroll-cue .line{animation:none;}
   *{scroll-behavior:auto !important;}
 }
+
+/* ============================================================ */
+/* ===================== RESPONSIVE STYLES ===================== */
+/* ============================================================ */
+
+/* ----- Tablets / small laptops ----- */
+@media (max-width:980px){
+  section{ padding:100px 6vw; }
+  .hero{ padding:100px 6vw 0; min-height:auto; }
+}
+
+/* ----- Tablet nav fix: keep links visible instead of vanishing ----- */
+@media (max-width:780px){
+  nav{ padding:16px 5vw; }
+  .navlinks{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+  }
+  .navlinks a{ font-size:.72rem; }
+}
+
+/* ----- Mobile phones ----- */
+@media (max-width:600px){
+  nav{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+    padding:16px 5vw;
+  }
+  .navlinks{
+    width:100%;
+    justify-content:flex-start;
+    gap:16px 22px;
+  }
+
+  .hero{ padding:140px 6vw 0; }
+  .hero h1{ font-size:clamp(2.4rem, 12vw, 3.4rem); line-height:1; }
+  .role-line{ font-size:1.05rem; gap:8px; }
+  .role-rotator{ min-width:200px; }
+  .hero p.sub{ font-size:.95rem; max-width:100%; }
+
+  .hero-cta{ flex-direction:column; align-items:stretch; }
+  .btn{ justify-content:center; }
+
+  .hero-stats{ gap:18px 24px; margin-top:38px; }
+  .hdiv{ display:none; }
+
+  .hero-photo-wrap{ width:min(280px, 70vw); margin:0 auto; }
+
+  .marquee-strip{ margin-top:50px; }
+
+  section{ padding:80px 6vw; }
+  .section-head{ margin-bottom:40px; flex-wrap:wrap; row-gap:10px; }
+  .section-title{ font-size:1.6rem; }
+
+  .about-grid{ gap:40px; }
+
+  .stat-grid{ grid-template-columns:1fr; }
+  .stat-cell{ padding:22px 20px; }
+
+  .timeline{ padding-left:28px; }
+  .tl-item::before{ left:-34px; width:9px; height:9px; }
+  .tl-desc{ max-width:100%; }
+
+  .project-grid{ grid-template-columns:1fr; gap:20px; }
+  .card{ padding:26px 22px; }
+
+  .skills-wrap{ grid-template-columns:1fr; gap:28px; }
+
+  .cert-row{ padding:16px 0; }
+
+  .contact-big{ font-size:clamp(1.6rem, 8vw, 2.4rem); }
+  .contact-links{ flex-direction:column; gap:16px; }
+
+  footer{ flex-direction:column; align-items:flex-start; padding:24px 5vw; }
+}
+
+/* ----- Small phones ----- */
+@media (max-width:420px){
+  .hero h1{ font-size:2.1rem; }
+  .badge-row{ gap:10px; }
+  .status-badge{ font-size:.66rem; padding:6px 10px 6px 8px; }
+  .hero-loc{ font-size:.66rem; }
+  .marquee-track{ font-size:.7rem; gap:10px; }
+  .card h3{ font-size:1.2rem; }
+  .contact-links a{ font-size:.82rem; }
+}
