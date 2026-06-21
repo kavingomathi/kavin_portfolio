@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavin S — Full Stack &amp; ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/three.min.js"></script>
+<link rel="stylesheet" href="portflio.css">
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+<div class="bg-noise"></div>
+
+<nav id="nav">
+  <div class="logo"><span class="dot"></span>KAVIN.S</div>
+  <ul class="navlinks">
+    <li><a href="#about">about</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-grid">
+
+    <div class="hero-content">
+      <div class="badge-row">
+        <span class="status-badge"><span class="status-dot"></span>Available for opportunities</span>
+        <span class="hero-loc mono">Erode, Tamil Nadu, IN</span>
+      </div>
+
+      <div class="eyebrow">B.Tech Information Technology · Class of 2026</div>
+
+      <h1>Kavin S</h1>
+      <div class="role-line">
+        <span class="role-static">I build</span>
+        <span class="role-rotator">
+          <span class="role-word">full‑stack web apps</span>
+          <span class="role-word">ML prediction pipelines</span>
+          <span class="role-word">vision transformer models</span>
+          <span class="role-word">production‑ready interfaces</span>
+        </span>
+      </div>
+
+      <p class="sub">From raw agricultural data to a deployed crop‑yield model, from a Figma‑less sketch to a working full‑stack app — I work the whole pipeline, not just one slice of it.</p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects <span class="arrow">→</span></a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hstat"><span class="hstat-num">3</span><span class="hstat-label">Shipped Projects</span></div>
+        <div class="hdiv"></div>
+        <div class="hstat"><span class="hstat-num">93%+</span><span class="hstat-label">Model Accuracy</span></div>
+        <div class="hdiv"></div>
+        <div class="hstat"><span class="hstat-num">IEEE</span><span class="hstat-label">Paper Presented</span></div>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="photo-glow"></div>
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="photo-card">
+        <img src="photo.jpg" alt="Portrait of Kavin S" class="photo-img">
+        <div class="photo-scan"></div>
+        <div class="frame-corner tl"></div>
+        <div class="frame-corner tr"></div>
+        <div class="frame-corner bl"></div>
+        <div class="frame-corner br"></div>
+      </div>
+      <div class="float-chip chip-1 mono">Python</div>
+      <div class="float-chip chip-2 mono">React</div>
+      <div class="float-chip chip-3 mono">PyTorch</div>
+      <div class="float-chip chip-4 mono">FastAPI</div>
+    </div>
+
+  </div>
+
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>RANDOM FOREST</span><span>·</span><span>ARIMA</span><span>·</span><span>VISION TRANSFORMER</span><span>·</span>
+      <span>REACT</span><span>·</span><span>PHP / MYSQL</span><span>·</span><span>PYTORCH</span><span>·</span>
+      <span>FASTAPI</span><span>·</span><span>LANGCHAIN</span><span>·</span>
+      <span>RANDOM FOREST</span><span>·</span><span>ARIMA</span><span>·</span><span>VISION TRANSFORMER</span><span>·</span>
+      <span>REACT</span><span>·</span><span>PHP / MYSQL</span><span>·</span><span>PYTORCH</span><span>·</span>
+      <span>FASTAPI</span><span>·</span><span>LANGCHAIN</span><span>·</span>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span class="line"></span>SCROLL</div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-head">
+    <span class="section-num mono">01</span>
+    <h2 class="section-title">About</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a final‑year <strong>Computer Science / IT</strong> graduate who likes working across the whole stack — from cleaning a messy CSV to shipping the interface that sits on top of the model.</p>
+      <p>My ML work spans <strong>classical models</strong> (Random Forest, ARIMA) for structured agricultural data, and <strong>deep learning</strong> (Vision Transformers) for image‑based weed detection — both taken through preprocessing, training, evaluation, and a usable UI.</p>
+      <p>On the web side, I build with <strong>React, JavaScript, and PHP</strong>, backed by MySQL/SQLite — currently deepening that stack through a full‑stack training program in Chennai.</p>
+    </div>
+    <div class="stat-grid reveal">
+      <div class="stat-cell"><div class="stat-num" data-count="93.33" data-suffix="%">0%</div><div class="stat-label">Random Forest accuracy — Harvest Predict</div></div>
+      <div class="stat-cell"><div class="stat-num" data-count="0.96" data-suffix="">0</div><div class="stat-label">ARIMA R² score — Sugarcane price</div></div>
+      <div class="stat-cell"><div class="stat-num" data-count="16" data-suffix="×16"></div><div class="stat-label">Patch size — Vision Transformer</div></div>
+      <div class="stat-cell"><div class="stat-num" data-count="1" data-suffix=""></div><div class="stat-label">IEEE ICCCA 2025 paper presented</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-head">
+    <span class="section-num mono">02</span>
+    <h2 class="section-title">Experience</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="timeline reveal">
+    <div class="tl-item">
+      <div class="tl-date">APR 2026 — PRESENT</div>
+      <div class="tl-role">Trainee, Full Stack Development</div>
+      <div class="tl-org">8Queens Software Technologies Pvt Ltd · Chennai</div>
+      <div class="tl-desc">Task‑based training across HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS and PHP — every concept followed by a hands‑on build. Completed HTML &amp; CSS modules; currently progressing through PHP.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">FEB 2026 — APR 2026</div>
+      <div class="tl-role">Intern, Full Stack Development</div>
+      <div class="tl-org">Newmak Technology · Coimbatore</div>
+      <div class="tl-desc">Real‑time internship covering end‑to‑end web application workflows, from setup to delivery.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">2022 — 2026</div>
+      <div class="tl-role">B.Tech, Information Technology</div>
+      <div class="tl-org">Velalar College of Engineering &amp; Technology, Erode</div>
+      <div class="tl-desc">Final‑year coursework and project work spanning machine learning, full‑stack development, and applied research.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-head">
+    <span class="section-num mono">03</span>
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="project-grid">
+
+    <div class="card reveal" data-tilt>
+      <div class="card-glow"></div>
+      <div class="card-tag">Predictive ML</div>
+      <h3>Harvest Predict</h3>
+      <p>A dual‑prediction system forecasting crop yield and market price. Five‑layer pipeline — Data Collection → Preprocessing → Model Development → Prediction → UI — with confusion matrices and price‑trend visualizations.</p>
+      <div class="card-metrics">
+        <div class="metric">RF Accuracy <b>93.33%</b></div>
+        <div class="metric">F1 Score <b>93.26%</b></div>
+        <div class="metric">ARIMA R² <b>0.94–0.96</b></div>
+      </div>
+      <div class="stack">
+        <span class="chip">Python</span><span class="chip">Random Forest</span><span class="chip">ARIMA</span><span class="chip">Scikit-learn</span><span class="chip">Pandas</span>
+      </div>
+    </div>
+
+    <div class="card reveal" data-tilt>
+      <div class="card-glow"></div>
+      <div class="card-tag">Computer Vision</div>
+      <h3>Patch‑To‑Prediction</h3>
+      <p>Vision Transformer for weed detection — splits field images into 16×16 patches with positional encodings and multi‑head self‑attention for global context. Full pipeline: resize/normalize/augment → AdamW training with LR scheduling → full evaluation suite.</p>
+      <div class="card-metrics">
+        <div class="metric">Input <b>224×224</b></div>
+        <div class="metric">Patch <b>16×16</b></div>
+        <div class="metric">Presented <b>IEEE ICCCA '25</b></div>
+      </div>
+      <div class="stack">
+        <span class="chip">PyTorch</span><span class="chip">Hugging Face</span><span class="chip">torchvision</span><span class="chip">Google Colab</span>
+      </div>
+    </div>
+
+    <div class="card reveal" data-tilt>
+      <div class="card-glow"></div>
+      <div class="card-tag">Full Stack</div>
+      <h3>CineLog</h3>
+      <p>A full‑stack movie review manager with complete CRUD via PHP/MySQLi, a live stats dashboard tracking total reviews, average rating and genre counts, plus modal‑driven glassmorphism popups for add / edit / view.</p>
+      <div class="card-metrics">
+        <div class="metric">Theme <b>Dark UI</b></div>
+        <div class="metric">UX <b>Glassmorphism</b></div>
+      </div>
+      <div class="stack">
+        <span class="chip">PHP</span><span class="chip">MySQLi</span><span class="chip">JavaScript</span><span class="chip">Bootstrap</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head">
+    <span class="section-num mono">04</span>
+    <h2 class="section-title">Skills</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-wrap reveal" id="skillsWrap">
+    <div class="skill-cat">
+      <h4>Languages &amp; Data</h4>
+      <div class="skill-bars">
+        <div class="skill-bar-row"><span>Python</span><div class="bar-track"><div class="bar-fill" data-level="92"></div></div></div>
+        <div class="skill-bar-row"><span>SQL</span><div class="bar-track"><div class="bar-fill" data-level="80"></div></div></div>
+        <div class="skill-bar-row"><span>Java</span><div class="bar-track"><div class="bar-fill" data-level="70"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-cat">
+      <h4>Web</h4>
+      <div class="skill-bars">
+        <div class="skill-bar-row"><span>React / JS</span><div class="bar-track"><div class="bar-fill" data-level="85"></div></div></div>
+        <div class="skill-bar-row"><span>PHP / MySQL</span><div class="bar-track"><div class="bar-fill" data-level="82"></div></div></div>
+        <div class="skill-bar-row"><span>Tailwind / CSS</span><div class="bar-track"><div class="bar-fill" data-level="84"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-cat">
+      <h4>Machine Learning</h4>
+      <div class="skill-bars">
+        <div class="skill-bar-row"><span>Scikit-learn</span><div class="bar-track"><div class="bar-fill" data-level="88"></div></div></div>
+        <div class="skill-bar-row"><span>PyTorch</span><div class="bar-track"><div class="bar-fill" data-level="78"></div></div></div>
+        <div class="skill-bar-row"><span>Transformers</span><div class="bar-track"><div class="bar-fill" data-level="74"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-cat">
+      <h4>Tools</h4>
+      <div class="skill-bars">
+        <div class="skill-bar-row"><span>Git / GitHub</span><div class="bar-track"><div class="bar-fill" data-level="86"></div></div></div>
+        <div class="skill-bar-row"><span>FastAPI</span><div class="bar-track"><div class="bar-fill" data-level="68"></div></div></div>
+        <div class="skill-bar-row"><span>LangChain</span><div class="bar-track"><div class="bar-fill" data-level="60"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <div class="section-head">
+    <span class="section-num mono">05</span>
+    <h2 class="section-title">Certifications</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="cert-list reveal">
+    <div class="cert-row"><span class="cert-name">AI Foundation — Data &amp; AI Fundamentals</span><span class="cert-org">Infosys Springboard</span></div>
+    <div class="cert-row"><span class="cert-name">Python for Data Analysis — Pandas, NumPy, Data Wrangling</span><span class="cert-org">GeeksforGeeks</span></div>
+    <div class="cert-row"><span class="cert-name">Core Java — OOP &amp; Data Structures</span><span class="cert-org">GeeksforGeeks</span></div>
+    <div class="cert-row"><span class="cert-name">Paper Presentation — Vision Transformer-based Weed Detection</span><span class="cert-org">IEEE ICCCA 2025</span></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap reveal">
+    <div class="eyebrow">06 / Let's talk</div>
+    <div class="contact-big">Open to full‑stack &amp; ML roles —<br>let's build something <span class="accent">production‑ready.</span></div>
+    <div class="contact-links">
+      <a href="mailto:kavingomathi23@gmail.com">kavingomathi23@gmail.com</a>
+      <a href="tel:+916381922132">+91 63819 22132</a>
+      <a href="#" target="_blank">GitHub →</a>
+      <a href="#" target="_blank">LinkedIn →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Kavin S</span>
+  <span>Erode, Tamil Nadu, India</span>
+</footer>
+
+<script src="portflio.js"></script>
+</body>
+</html>
